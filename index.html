@@ -6,22 +6,122 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!--    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<!--    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+
 </head>
 <body>
 <header id="header">
     <div class="container">
-        <div class="header-general">
-            <h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dolore doloribus eum ex
-                exercitationem, fugiat ipsa iure molestias, odit officia pariatur praesentium quibusdam quod recusandae
-                unde vel voluptatem voluptatibus! Animi iste itaque libero neque optio, vel. Ab animi architecto atque
-                culpa cumque delectus fuga fugit illo ipsum iusto laborum modi necessitatibus nostrum obcaecati,
-                pariatur provident quam quisquam quos repudiandae sunt suscipit vitae, voluptas voluptatem. A
-                accusantium blanditiis consectetur cumque, doloribus dolorum ducimus excepturi expedita facere hic in
-                ipsa magnam maxime necessitatibus nostrum praesentium quae quos sit tempora voluptate? Accusamus
-                architecto dignissimos eaque earum, enim eum fuga quo sunt voluptates?</h1>
+        <div class="header">
+            <a href="#" class="logo">
+                <img src="./img/tv.svg" alt="">
+                <span class="header-logo">MovieBox</span>
+            </a>
+            <div>
+                <label class="search">
+                    <input class="input" type="search" placeholder="What do you want to watch?"/>
+                </label>
+                <i class="fas fa-search big search-icon"></i>
+            </div>
+            <div class="end-menu">
+                <button class="btn">Sign in</button>
+                <div class="header-burger-menu">
+                    <span class="burger-line"></span>
+                </div>
+            </div>
         </div>
     </div>
 </header>
 
+<section id="hero">
+    <div class="container">
+        <div class="hero">
+            <h1 class="hero-title">John Wick 3 : Parabellum</h1>
+            <div class="hero-item">
+                <img src="./img/imdx.svg" alt="">
+                <P class="fon">86.0 / 100</P>
+            </div>
+
+            <p class="hero-subtitle">John Wick is on the run after killing a member of the international assassins'
+                guild, and with a $14 million price tag on his head, he is the target of hit men and women
+                everywhere.</p>
+            <button class="hero-btn">
+                <i class="fa-solid fa-circle-play"></i> Watch trailer
+            </button>
+
+        </div>
+    </div>
+</section>
+<section id="movie">
+    <div class="container">
+        <h1>Featured Movie</h1>
+        <div class="movie">
+            <div>
+                <img src="./img/Poster%201.png" alt="">
+                <h6>USA, 2016 - Current</h6>
+                <h4 class="strang">Stranger Things</h4>
+                <div class="true">
+                        <img   src="./img/imdx.svg" alt="">
+                        <p>86.0 / 100</p>
+                    <img src="./img/tomate.svg" alt="">
+                    <p>97%</p>
+                </div>
+
+                     <h6 class="action">Action, Adventure, Horror</h6>
+            </div>
+            <div>
+                <img src="./img/poster%202.png" alt="">
+                <h6>USA, 2005</h6>
+                <h4 class="batman">Batman Begins</h4>
+                <div class="sifr">
+                    <img src="./img/imdx.svg" alt="">
+                    <p>82.0 / 100</p>
+                    <img  src="./img/tomate.svg" alt="">
+                    <p>90%</p>
+                </div>
+                <h6 class="action1">Action, Adventure</h6>
+            </div>
+            <div>
+                <img src="./img/Poster%20(3).png" alt="">
+                <h6>USA, 2018</h6>
+                <h4 class="man">Spider-Man : Into The Spider Verse</h4>
+                <div class="true2">
+                    <img src="./img/imdx.svg" alt="">
+                    <p>84.0 / 100</p>
+                    <img src="./img/tomate.svg" alt="">
+                    <p>87%</p>
+                </div>
+                <h6 class="action1">Animation, Action, Adventure</h6>
+            </div>
+            <div>
+                <img src="./img/Poster%20(4).png" alt="">
+                <h6>USA, 2017</h6>
+                <h4>Dunkirk</h4>
+                <div class="true3">
+                    <img src="./img/imdx.svg" alt="">
+                    <p>78.0 / 100</p>
+                    <img src="./img/tomate.svg" alt="">
+                    <p>94%</p>
+                </div>
+                <h6 class="action3">Action, Drama, History</h6>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<script src="./js/jquery.min.js/jquery.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="js/all.min.js"></script>
+<!--<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+<script src="./js/index.js"></script>
 </body>
 </html>
